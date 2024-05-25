@@ -1,0 +1,25 @@
+.categories .catogory-item {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.categories .catogory-item a {
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.categories .catogory-item .category-image {
+  width: 100%;
+  transition: transform ease 0.2s;
+}
+
+.categories .catogory-item .category-image:hover {
+  transform: scale(1.1);
+}

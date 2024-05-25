@@ -1,0 +1,127 @@
+.section-title {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 8px;
+}
+
+.section-title p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*! categories start*/
+.categories {
+  margin: 40px 0;
+}
+.categories .category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/*! categories end*/
+
+/*! products start */
+
+.products {
+  margin-bottom: 40px;
+}
+
+.products .product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/*! products end */
+
+/*! compaign start*/
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+/*! compaign end*/
+
+/*! blogs start*/
+.blogs {
+  margin-bottom: 30px;
+}
+.blogs .blog-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+/*! blogs end*/
+
+/*! brand-list start*/
+.brands {
+  margin: 40px 0;
+}
+
+.brand-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid #dee0ea;
+  padding: 30px 5px;
+}
+
+.brand-list .brand-item {
+  opacity: 0.4;
+  transition: 0.3s ease opacity;
+}
+.brand-list .brand-item:hover {
+  opacity: 1;
+}
+
+/*! brand-list end*/
+
+/*! policy start*/
+.policy {
+  border: 1px solid #dee0ea;
+}
+.policy .policy-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.policy .policy-item i {
+  font-size: 50px;
+  display: flex;
+}
+.policy .policy-item .policy-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
+}
+.policy .policy-item .policy-texts span {
+  font-size: 12px;
+}
+
+/*! policy end*/
+
+/*! responsive */
+
+@media (max-width: 768px) {
+  .policy .policy-list {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

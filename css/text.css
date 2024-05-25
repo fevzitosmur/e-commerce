@@ -1,0 +1,23 @@
+.scrolling-text-container {
+    height: 17px; /* Örnek bir yükseklik */
+    overflow: hidden; /* İçeriğin sınırları içinde kalmak için */
+    position: relative; /* Metni konumlamak için gereklidir */
+}
+
+.scrolling-text {
+    position: absolute; /* Metni konumlamak için */
+    white-space: nowrap; /* Metnin alt alta değil, yan yana olmasını sağlar */
+    animation: scroll 20s linear infinite; /* Animasyonu tanımla */
+}
+
+@keyframes scroll {
+    0% {
+        left: 0; /* Başlangıç pozisyonu, metin ekranın solunda */
+    }
+    100% {
+        left: 100%; /* Bitiş pozisyonu, metin ekranın sağında tamamen kayboldu */
+    }
+}
+
+
+

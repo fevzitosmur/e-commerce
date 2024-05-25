@@ -1,0 +1,123 @@
+.products {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item .product-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-item .product-image img {
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-item:hover .product-image img {
+    transform: scale(1.1);
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .product-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .product-star {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-star li {
+    display: inline;
+  }
+  
+  .product-prices {
+    margin-bottom: 10px;
+  }
+  
+  .new-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  .old-price {
+    font-size: 16px;
+    color: #888;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  
+  .product-discount {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .product-links {
+    margin-top: 20px;
+  }
+  
+  .product-links button,
+  .product-links a {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-links button:hover,
+  .product-links a:hover {
+    background-color: #555;
+  }
+  
